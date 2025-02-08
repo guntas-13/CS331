@@ -69,6 +69,8 @@ try:
 <div align = "center">
     <img src = "./images/7.png" style="width: 100%">
 </div>
+
+<div align = "center">
 <i><b>Fig4</b>: All existing clients' connection/socket closed and the server is still waiting for serving more client.</i>
 </div>
 
@@ -101,6 +103,7 @@ python3 serverMT.py
 ```
 
 ## Benchmarking - Running the Client Program
+For Multi-Processing and Multi-Threaded Server designs, I ran the script for each `client_number=[10,20...100]` for **3 times** and then took the **median** as the final reporting value.
 
 ```bash
 chmod +x start.sh
@@ -155,5 +158,7 @@ Run3 -> 3.077185 3.125844 3.179028 3.221829 3.275605 3.319528 3.365879 3.421557 
 <div align = "center">
     <img src = "./images/8.png" style="width: 100%">
 </div>
+
+<div align = "center">
 <i>Demonstration of the test running process.</i>
 </div>
